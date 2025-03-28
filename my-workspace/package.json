@@ -1,0 +1,22 @@
+{
+  "name": "my-workspace",
+  "version": "1.0.0",
+  "description": "A TypeScript project for managing patient data with FastAPI.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fastapi": "^0.68.0",
+    "pydantic": "^1.8.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.1",
+    "ts-jest": "^27.0.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
